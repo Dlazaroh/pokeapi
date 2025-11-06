@@ -1,0 +1,35 @@
+.pokemon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.pokemon-name {
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #333;
+}
+
+.pagination {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #0078d4;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

@@ -1,0 +1,10 @@
+<div class="pokemon-container">
+<div *ngFor="let pokemon of pokemons">
+    <span class="pokemon-name">{{pokemon.name}}</span>
+</div>
+</div>
+
+<div class="pagination">
+<button (click)="prevPage()" [disabled]="currentPage === 1">Anterior</button>
+<button (click)="nextPage()">Siguiente</button>
+</div>
