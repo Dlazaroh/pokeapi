@@ -52,7 +52,7 @@ For end-to-end (e2e) testing, run:
 ng e2e
 ```
 ## Application deployment
-Visit: [Vercel](https://pokeapi-ten-blond.vercel.app/)
+Visit: [Consumir-pokeapi](https://pokeapi-ten-blond.vercel.app/)
 
 
 Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
